@@ -88,3 +88,20 @@ main{
   width: 50%;
   margin-bottom: 20px;
 }
+
+
+.img-text-wrapper .subtitle {
+  transition: 0.8s;
+  font-weight: 600;
+  color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color:rgb(13, 187, 42);
+}
+
+.img-darken {
+  transition: 0.8s;
+  filter: brightness(15%);
+}
