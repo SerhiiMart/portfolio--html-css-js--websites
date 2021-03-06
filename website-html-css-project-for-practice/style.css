@@ -4,3 +4,49 @@
   box-sizing: border-box;
 }
 
+nav{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.left-nav {
+  display: flex;
+}
+.container > .left-nav > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+.link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.6s;
+}
+
+.link-wrapper a {
+  color: rgb(167, 161, 161);
+  text-decoration: none;
+  transition: color 0.6s;
+}
+.link-wrapper:hover {
+  border-bottom:3px solid rgb(68, 202, 27);
+}
+
+.link-wrapper a:hover {
+  color: black;
+}
+
+.name {
+  text-transform: uppercase;
+}
+.name  a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
